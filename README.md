@@ -13,6 +13,7 @@ A minimal demo using [OpenCLIP](https://github.com/mlfoundations/open_clip) to i
 conda create -n openclip python=3.10 -y
 conda activate openclip
 pip install torch torchvision open_clip_torch pillow
+<<<<<<< HEAD
 ```
 
 ## Results
@@ -29,4 +30,3 @@ Run `python vlm_demo.py` to see how the model interprets and describes an image.
 VLM top match: a block lying flat on the table  
 
 Suggested action: pick up and stand the block upright.
-
