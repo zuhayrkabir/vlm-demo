@@ -17,7 +17,7 @@ pip install torch torchvision open_clip_torch pillow
 ```
 
 ## Results
-Run `python vlm_demo.py` to see how the model interprets and describes an image.
+Run `python vlm_demo2.py` to see how the model interprets and describes an image.
 
 **Example output:**
 - a block lying flat on the table -> 91.82% ✅
