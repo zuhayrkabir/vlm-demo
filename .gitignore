@@ -1,0 +1,7 @@
+pycache/
+*.pt
+*.png
+*.jpg
+*.jpeg
+.env
+.DS_Store
