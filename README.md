@@ -10,9 +10,16 @@ A minimal demo using [OpenCLIP](https://github.com/mlfoundations/open_clip) to i
 
 ## ⚙️ Setup
 ```bash
+# Clone repository
+git clone https://github.com/yourusername/vlm-demo.git
+cd vlm-demo
+
+# Create environment (optional but recommended)
 conda create -n openclip python=3.10 -y
 conda activate openclip
-pip install torch torchvision open_clip_torch pillow
+
+# Install dependencies
+pip install -r requirements.txt
 <<<<<<< HEAD
 ```
 
