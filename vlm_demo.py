@@ -13,8 +13,8 @@ device = "cpu"
 model = model.to(device).eval()
 
 # ---- your image ----
-image_path2 = "block_tipped.jpeg"  # change if needed
-image_path = "upright_block.jpg"  # change if needed
+image_path2 = "images/block_tipped.jpeg"  # change if needed
+image_path = "images/upright_block.jpg"  # change if needed
 image = preprocess(Image.open(image_path).convert("RGB")).unsqueeze(0).to(device)
 
 # ---- candidate descriptions ----
