@@ -33,7 +33,7 @@ Suggested action: pick up and stand the block upright.
 
 
 
-## Nature TimeLapse Analysis - Dynamic OpenCLIP Usage
+## 🌄 Nature TimeLapse Analysis - Dynamic OpenCLIP Usage
 Run `python nature_analyzer.py` to analyze nature videos and detect scenes.
 
 Features:
@@ -43,15 +43,15 @@ Features:
 - Auto-Dependencies: Automatic package installation
 
 
-USAGE: 
-# Analyze YouTube video
-python nature_analyzer.py --youtube "https://youtube.com/watch?v=EXAMPLE"
+Usage: 
+Analyze YouTube video
+- python nature_analyzer.py --youtube "https://youtube.com/watch?v=EXAMPLE"
 
-# Analyze local video  
-python nature_analyzer.py --video "path/to/video.mp4"
+Analyze local video  
+- python nature_analyzer.py --video "path/to/video.mp4"
 
-# Faster processing
-python nature_analyzer.py --youtube "URL" --interval 60 --no-display
+Faster processing
+- python nature_analyzer.py --youtube "URL" --interval 60 --no-display
 
 
 Example Output:
