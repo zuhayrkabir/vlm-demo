@@ -3,10 +3,31 @@
 A minimal demo using [OpenCLIP](https://github.com/mlfoundations/open_clip) to interpret a visual scene and suggest a robot action.
 
 ## 📦 Requirements
-- Python 3.10+
-- PyTorch ≥ 2.5
-- `open_clip_torch`
-- `Pillow`
+
+### Core Dependencies
+```bash
+# Essential packages
+torch>=2.0.0
+torchvision>=0.15.0
+open-clip-torch>=2.0.0
+Pillow>=10.0.0
+```
+
+### Video Processing
+``` bash
+# For nature_analyzer.py
+opencv-python>=4.8.0
+yt-dlp>=2023.11.16
+pytube>=15.0.0  # (backup downloader)
+```
+
+### Utilities
+``` bash
+numpy>=1.24.0
+requests>=2.25.0
+```
+
+
 
 ## ⚙️ Setup
 ```bash
@@ -43,14 +64,14 @@ Suggested action: pick up and stand the block upright.
 ## 🌄 Nature TimeLapse Analysis - Dynamic OpenCLIP Usage
 Run `python nature_analyzer.py` to analyze nature videos and detect scenes.
 
-Features:
+### Features:
 - Video Processing: Analyze local videos or download from YouTube
 - Scene Detection: Identify nature scenes (milky way, storms, rainbows, landscapes)
 - Smart Prompts: Includes confuser prompts to validate model intelligence
 - Auto-Dependencies: Automatic package installation
 
 
-Usage: 
+### Usage: 
 Analyze YouTube video
 - python nature_analyzer.py --youtube "https://www.youtube.com/watch?v=dj44GB-FXbM"
 
