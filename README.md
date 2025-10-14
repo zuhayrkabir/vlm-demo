@@ -45,10 +45,10 @@ Features:
 
 Usage: 
 Analyze YouTube video
-- python nature_analyzer.py --youtube "https://youtube.com/watch?v=EXAMPLE"
+- python nature_analyzer.py --youtube "https://www.youtube.com/watch?v=dj44GB-FXbM"
 
 Analyze local video  
-- python nature_analyzer.py --video "path/to/video.mp4"
+- python nature_analyzer.py --video "nature_timelapse.mp4"
 
 Faster processing
 - python nature_analyzer.py --youtube "URL" --interval 60 --no-display
