@@ -61,6 +61,46 @@ Suggested action: pick up and stand the block upright.
 
 
 
+## ☕ Mug Action Analyzer - Real-time State Detection
+Run `python mug_action_analyzer.py` to analyze mug states and movements in real-time.
+
+Features:
+- State Detection: Identify mug orientation (upright, toppled, moving)
+- Temporal Tracking: Detect movement patterns between zones A and B
+- Real-time Analysis: Process video at 30fps+ with live display
+- Action Suggestions: Generate robotic actions based on mug state
+
+
+### Usage
+```bash 
+# Analyze single video
+python mug_action_analyzer.py --video "videos/Test2.mov"
+
+# Analyze folder of videos
+python mug_action_analyzer.py --videos_dir "videos"
+```
+
+### Example Output
+```bash
+🎬 Starting analysis: mug_toppled.mov
+======================================================================
+⏱    0.0s | mug_fallen_over                   | 82.1%
+⏱    2.4s | mug_fallen_over                   | 85.6%
+
+📊 FINAL RESULTS - Frames used: 45 | FPS: 30.0
+----------------------------------------------------------------------
+mug_fallen_over              -> 78.3%
+mug_ready_use                -> 12.1%
+hand_moving_mug              ->  8.7%
+----------------------------------------------------------------------
+✅ FINAL PREDICTION: mug_fallen_over  (conf 78.3%)
+🤖 ACTION: PICK_UP_AND_STAND_UP
+======================================================================
+```
+
+
+
+
 ## 🌄 Nature TimeLapse Analysis - Dynamic OpenCLIP Usage
 Run `python nature_analyzer.py` to analyze nature videos and detect scenes.
 
