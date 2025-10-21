@@ -75,9 +75,6 @@ Features:
 ```bash 
 # Analyze single video
 python mug_action_analyzer.py --video "videos/Test2.mov"
-
-# Analyze folder of videos
-python mug_action_analyzer.py --videos_dir "videos"
 ```
 
 ### Example Output
